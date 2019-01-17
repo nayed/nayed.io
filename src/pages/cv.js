@@ -2,8 +2,11 @@ import React from 'react'
 import Layout from '../components/layout'
 import Company from '../components/cv/company'
 import Education from '../components/cv/education'
+import Skill from '../components/cv/skill'
+
 import building from '../images/building.svg'
 import ruler from '../images/ruler.svg'
+import chemistry from '../images/chemistry.svg'
 
 const companies = [
   {
@@ -105,5 +108,11 @@ export default () => (
     {education.map(item => (
       <Education education={item} key={education.indexOf(item)} />
     ))}
+
+    <h2>
+      <img src={chemistry} alt="building icon" style={{height: '60px'}} />
+      Skills
+    </h2>
+    <Skill />
   </Layout>
 )

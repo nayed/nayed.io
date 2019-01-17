@@ -57,3 +57,34 @@ img {
   color: #00755e;
   margin: 0;
 }
+
+.skill-item {
+  display: block;
+  margin-top: 15px;
+}
+.skill h3 {
+  display: inline;
+}
+.skill span {
+  display: inline;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.skill-js {
+  background-color: #ffc107 !important;
+}
+.skill-react {
+  background-color: #61dafb !important;
+}
+.skill-nodejs {
+  background-color: #00cc99 !important;
+}
+.skill-go {
+  background-color: #91cbff !important;
+}
+.skill-python {
+  background-color: #629ccd !important;
+}
+.skill-ruby {
+  background-color: #fd0e35 !important;
+}
