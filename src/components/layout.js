@@ -13,8 +13,16 @@ const ListLink = props => (
 )
 
 export default ({children}) => (
-  <div className="container" style={{color: '#191970'}}>
-    <header style={{marginBottom: '1.5rem'}}>
+  <div
+    className="container"
+    style={{
+      color: '#191970',
+      display: 'flex',
+      minHeight: '100vh',
+      flexDirection: 'column',
+      paddingTop: '20px'
+    }}>
+    <header>
       <Link to="/" style={{textShadow: 'none', backgroundImage: 'none'}}>
         <h3 style={{display: 'inline'}}>
           <img src={home} alt="home icon" style={{height: '50px'}} />
@@ -31,6 +39,10 @@ export default ({children}) => (
     </header>
     <hr />
 
-    {children}
+    <main style={{flex: '1'}}>{children}</main>
+
+    <footer className="text-center">
+      Nayed Saïd Ali - Copyright © {new Date().getFullYear()}
+    </footer>
   </div>
 )

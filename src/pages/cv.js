@@ -91,10 +91,8 @@ const education = [
 
 export default () => (
   <Layout>
-    <h1 className="text-center">My Resume</h1>
-
     <h2>
-      <img src={building} alt="building icon" style={{height: '60px'}} />
+      <img src={building} alt="building icon" style={{height: '50px'}} />
       Experiences
     </h2>
     {companies.map(item => (
@@ -102,7 +100,7 @@ export default () => (
     ))}
 
     <h2>
-      <img src={ruler} alt="building icon" style={{height: '60px'}} />
+      <img src={ruler} alt="building icon" style={{height: '50px'}} />
       Education
     </h2>
     {education.map(item => (
@@ -110,7 +108,7 @@ export default () => (
     ))}
 
     <h2>
-      <img src={chemistry} alt="building icon" style={{height: '60px'}} />
+      <img src={chemistry} alt="building icon" style={{height: '50px'}} />
       Skills
     </h2>
     <Skill />
