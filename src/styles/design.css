@@ -34,18 +34,22 @@ img {
   float: right;
 }
 
-.company {
+.company,
+.education {
   margin: 0 80px;
 }
-.company h3 {
+.company h3,
+.education h3 {
   color: #6b3fa0;
   margin: 0;
 }
-.company-location {
+.company-location,
+.education-location {
   float: right;
   margin: 0;
 }
-.company ul {
+.company ul,
+.education ul {
   padding-left: 25px;
   font-size: 17px;
 }
