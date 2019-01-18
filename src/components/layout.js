@@ -18,7 +18,7 @@ export default ({children}) => (
   <>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>mon titre</title>
+      <title>Nayed Saïd Ali</title>
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.2.1/sketchy/bootstrap.min.css"
