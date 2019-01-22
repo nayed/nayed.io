@@ -1,17 +1,34 @@
 import React from 'react'
+import styled from 'styled-components'
 
+import {
+  Card,
+  CardHeader,
+  CardHeaderTop,
+  CardHeaderTitle,
+  CardHeaderDates,
+  CardHeaderLocation,
+  CardBody,
+  CardBodyTitle,
+  CardBodyText
+} from '../card'
+
+const Tech = styled.h5`
+  margin-bottom: 0;
+  color: #00755e;
+`
 export default props => (
-  <div className="card border-info mb-3 company">
-    <div className="card-header">
-      <h3>
-        <span>{props.job.name}</span>
-        <span className="right">{props.job.dates}</span>
-      </h3>
-      <h5 className="company-location">{props.job.location}</h5>
-    </div>
-    <div className="card-body">
-      <h4 className="card-title">{props.job.title}</h4>
-      <ul className="card-text">
+  <Card>
+    <CardHeader>
+      <CardHeaderTop>
+        <CardHeaderTitle>{props.job.name}</CardHeaderTitle>
+        <CardHeaderDates>{props.job.dates}</CardHeaderDates>
+      </CardHeaderTop>
+      <CardHeaderLocation>{props.job.location}</CardHeaderLocation>
+    </CardHeader>
+    <CardBody>
+      <CardBodyTitle>{props.job.title}</CardBodyTitle>
+      <CardBodyText>
         {props.job.tasks.map(task => (
           <li key={props.job.tasks.indexOf(task)}>{task}</li>
         ))}
@@ -20,10 +37,8 @@ export default props => (
             <a href={props.job.link}>{props.job.link}</a>
           </li>
         )}
-      </ul>
-      {props.job.tech && (
-        <h5 className="company-tech">Tech used: {props.job.tech.join(', ')}</h5>
-      )}
-    </div>
-  </div>
+      </CardBodyText>
+      {props.job.tech && <Tech>Tech used: {props.job.tech.join(', ')}</Tech>}
+    </CardBody>
+  </Card>
 )

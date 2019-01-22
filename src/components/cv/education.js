@@ -1,21 +1,33 @@
 import React from 'react'
 
+import {
+  Card,
+  CardHeader,
+  CardHeaderTop,
+  CardHeaderTitle,
+  CardHeaderDates,
+  CardHeaderLocation,
+  CardBody,
+  CardBodyTitle,
+  CardBodyText
+} from '../card'
+
 export default props => (
-  <div className="card border-success mb-3 education">
-    <div className="card-header">
-      <h3>
-        <span>{props.education.name}</span>
-        <span className="right">{props.education.dates}</span>
-      </h3>
-      <h5 className="education-location">{props.education.location}</h5>
-    </div>
-    <div className="card-body">
-      <h4 className="card-title">{props.education.title}</h4>
-      <ul className="card-text">
+  <Card>
+    <CardHeader>
+      <CardHeaderTop>
+        <CardHeaderTitle>{props.education.name}</CardHeaderTitle>
+        <CardHeaderDates>{props.education.dates}</CardHeaderDates>
+      </CardHeaderTop>
+      <CardHeaderLocation>{props.education.location}</CardHeaderLocation>
+    </CardHeader>
+    <CardBody>
+      <CardBodyTitle>{props.education.title}</CardBodyTitle>
+      <CardBodyText>
         {props.education.info.map(item => (
           <li key={props.education.info.indexOf(item)}>{item}</li>
         ))}
-      </ul>
-    </div>
-  </div>
+      </CardBodyText>
+    </CardBody>
+  </Card>
 )

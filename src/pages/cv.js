@@ -1,4 +1,6 @@
 import React from 'react'
+import styled from 'styled-components'
+
 import Layout from '../components/layout'
 import Company from '../components/cv/company'
 import Education from '../components/cv/education'
@@ -89,28 +91,37 @@ const education = [
   }
 ]
 
+const Img = styled.img`
+  height: 50px
+  vertical-align: middle
+`
+
+const H2 = styled.h2`
+  margin-bottom: 0;
+`
+
 export default () => (
   <Layout>
-    <h2>
-      <img src={building} alt="building icon" style={{height: '50px'}} />
+    <H2>
+      <Img src={building} alt="building icon" style={{height: '50px'}} />
       Experiences
-    </h2>
+    </H2>
     {companies.map(item => (
       <Company job={item} key={companies.indexOf(item)} />
     ))}
 
-    <h2>
-      <img src={ruler} alt="building icon" style={{height: '50px'}} />
+    <H2>
+      <Img src={ruler} alt="building icon" style={{height: '50px'}} />
       Education
-    </h2>
+    </H2>
     {education.map(item => (
       <Education education={item} key={education.indexOf(item)} />
     ))}
 
-    <h2>
-      <img src={chemistry} alt="building icon" style={{height: '50px'}} />
+    <H2>
+      <Img src={chemistry} alt="building icon" style={{height: '50px'}} />
       Skills
-    </h2>
+    </H2>
     <Skill />
   </Layout>
 )
