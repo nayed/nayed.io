@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Nav from './nav'
-import GlobalStyles from './globalstyles'
+import GlobalStyles from './globalStyles'
 import Footer from './footer'
 
 const Container = styled.div`
