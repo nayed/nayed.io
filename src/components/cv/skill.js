@@ -3,16 +3,16 @@ import styled from 'styled-components'
 import {Badge} from './../badge'
 
 const Skill = styled.div`
-  margin-bottom: 15px
+  margin-bottom: 15px;
 
   h3 {
-    display: inline
+    display: inline;
   }
 
   span {
-    display: inline
-    font-size: 20px
-    margin-right: 10px
+    display: inline;
+    font-size: 20px;
+    margin-right: 10px;
   }
 `
 

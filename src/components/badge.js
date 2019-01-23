@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 const BGColorChooser = props => {
-  if (props.BGColor) return props.BGColor
-  else if (props.primary) return '#333'
-  else return '#555'
+  if (props.BGColor) return `${props.BGColor};`
+  else if (props.primary) return '#333;'
+  else return '#555;'
 }
 
 export const Badge = styled.span`
@@ -22,6 +22,6 @@ export const Badge = styled.span`
   background-color: ${props => BGColorChooser(props)}
   border-radius: 7rem 8rem 8rem 8rem / 4rem 5rem 6rem 6rem;
   color: #fff;
-  font-family: Neucha
+  font-family: Neucha;
   position: relative;
 `

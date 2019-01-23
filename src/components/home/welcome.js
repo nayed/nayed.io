@@ -25,15 +25,15 @@ const Welcome = styled.div`
 const Top = styled.div`
   display: inline-block;
   text-align: center;
-  width: 100%;
+  height: 250px;
 `
 
 const Img = styled.img`
-  height: 250px
-  display: inline
+  height: 250px;
+  display: inline;
   vertical-align: middle;
   border-style: none;
-  margin-right: 50px
+  margin-right: 50px;
 `
 
 const HelloWorld = styled.h1`

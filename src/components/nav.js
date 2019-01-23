@@ -11,8 +11,8 @@ const Nav = styled.header`
   height: 50px;
 `
 const Li = styled.li`
-  display: inline-block
-  margin-right: 1rem
+  display: inline-block;
+  margin-right: 1rem;
 `
 
 const ListLink = props => (
@@ -30,17 +30,17 @@ const Img = styled.img`
 `
 
 const Menu = styled.ul`
-  list-style: none
-  float: right
+  list-style: none;
+  float: right;
 `
 
 export default () => (
   <Nav>
-    <Link to="/">
-      <HomeIcon>
+    <HomeIcon>
+      <Link to="/">
         <Img src={home} alt="home icon" />
-      </HomeIcon>
-    </Link>
+      </Link>
+    </HomeIcon>
     <Menu>
       <ListLink to="/cv/">
         <Img src={cv} alt="cv icon" />

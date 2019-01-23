@@ -74,8 +74,8 @@ export const CardBodyTitle = styled.h4`
 export const CardBodyText = styled.ul`
   margin-top: 0;
   margin-bottom: 1rem;
-  padding-left: 25px
-  font-size: 17px
+  padding-left: 25px;
+  font-size: 17px;
 
   li {
     font-family: Neucha;
