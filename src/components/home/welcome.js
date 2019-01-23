@@ -26,6 +26,7 @@ const Top = styled.div`
   display: inline-block;
   text-align: center;
   height: 250px;
+  width: 100%;
 `
 
 const Img = styled.img`

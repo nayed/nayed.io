@@ -17,8 +17,8 @@ const companies = [
     location: 'Paris, France',
     title: 'Full Stack Developer',
     tasks: [
-      'Developed React app to help managing users data',
-      'Developed various ETL',
+      "Developed React app to display and manage user's data",
+      'Developed various ETLs',
       'Help maintained k8s servers'
     ],
     tech: ['React', 'Go', 'Python', 'MySQL', 'Bash', 'Google Cloud Platform']
