@@ -15,7 +15,7 @@ const companies = [
     name: 'Oh BiBi',
     dates: 'April 2018 - September 2018',
     location: 'Paris, France',
-    title: 'Full Stack Developer',
+    title: 'Full-Stack Developer',
     tasks: [
       "Developed React app to display and manage user's data",
       'Developed various ETLs',
@@ -27,7 +27,7 @@ const companies = [
     name: 'Segeco Consulting',
     dates: 'March 2015 - February 2017',
     location: 'Lyon, France',
-    title: 'Developer (intern)',
+    title: 'Full-Stack Developer (intern)',
     tasks: [
       'Part of the developer team',
       'Maintained and developed modules for an internal web app that will help clients manage their projects'
@@ -38,7 +38,7 @@ const companies = [
     name: 'Appsolute',
     dates: 'January 2014 - March 2014',
     location: 'Villeurbanne, France',
-    title: 'Developer (intern)',
+    title: 'Back-end Developer (intern)',
     tasks: [
       'Social media app: Daylimiter',
       'Conceived the database',
