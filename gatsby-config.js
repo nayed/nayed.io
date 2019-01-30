@@ -1,4 +1,10 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Personal website',
+    author: 'Nayed Saïd Ali',
+    description: "Nayed Saïd Ali's personal website",
+    siteUrl: 'https://nayed.io'
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,

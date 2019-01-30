@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 import Company from '../components/cv/company'
 import Education from '../components/cv/education'
 import Skill from '../components/cv/skill'
@@ -102,6 +103,7 @@ const H2 = styled.h2`
 
 export default () => (
   <Layout>
+    <SEO description="Nayed SAïd Ali | CV" title="Nayed Saïd Ali | CV" />
     <H2>
       <Img src={building} alt="building icon" style={{height: '50px'}} />
       Experiences
