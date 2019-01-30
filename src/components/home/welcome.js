@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import avatar from '../../images/avatar.svg'
+import avatar from '../../images/nayed.svg'
 
 const calculateMyAge = () => {
   const birth = new Date(1992, 1, 6)

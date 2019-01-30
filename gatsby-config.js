@@ -6,6 +6,7 @@ module.exports = {
         trackingId: 'UA-54444877-3'
       }
     },
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
       resolve: 'gatsby-plugin-web-font-loader',
