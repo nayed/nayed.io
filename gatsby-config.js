@@ -7,9 +7,21 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: 'UA-54444877-3'
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Nayed',
+        short_name: 'Nayed',
+        start_url: '/',
+        background_color: '#FFFFFF',
+        theme_color: '#00CCCC',
+        display: 'minimal-ui',
+        icon: 'src/images/n.svg'
       }
     },
     'gatsby-plugin-react-helmet',
