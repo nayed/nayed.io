@@ -1,10 +1,11 @@
 import React from 'react'
-import {Link} from 'gatsby'
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 import home from '../images/home.svg'
 import cv from '../images/cv.svg'
 import github from '../images/github.svg'
+import blog from '../images/blog.svg'
 
 const Nav = styled.header`
   margin: 15px 0 5px 0;
@@ -45,6 +46,9 @@ export default () => (
       <ListLink to="/cv/">
         <Img src={cv} alt="cv icon" />
       </ListLink>
+      <a href="https://nayed.blog">
+        <Img src={blog} alt="blog icon" />
+      </a>
       <a href="https://github.com/nayed">
         <Img src={github} alt="github icon" />
       </a>
