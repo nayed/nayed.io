@@ -38,8 +38,8 @@ const Img = styled.img`
 `
 
 const HelloWorld = styled.h1`
-  font-size: 6rem;
-  font-weight: 300;
+  font-size: 6.3rem;
+  font-weight: bold;
   line-height: 1.2;
   display: inline;
 `
@@ -60,7 +60,7 @@ export default () => (
       <Img src={avatar} alt="nayed's avatar" />
       <HelloWorld>
         H<span style={{ color: '#00CCCC' }}>e</span>ll
-        <span style={{ color: '#E77200' }}>o</span> w
+        <span style={{ color: '#FF952F' }}>o</span> w
         <span style={{ color: '#E30B5C' }}>o</span>rld
         <span style={{ color: '#02A4D3' }}>!</span>
       </HelloWorld>
