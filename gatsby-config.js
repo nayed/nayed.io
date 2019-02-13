@@ -25,14 +25,6 @@ module.exports = {
       }
     },
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-styled-components',
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Cabin Sketch', 'Neucha', 'Roboto']
-        }
-      }
-    }
+    'gatsby-plugin-styled-components'
   ]
 }

@@ -7,7 +7,7 @@ const calculateMyAge = () => {
   const birth = new Date(1992, 1, 6)
   const today = Date.now()
   const age = new Date(today - birth.getTime())
-  return <span style={{color: '#00CC99'}}>{age.getUTCFullYear() - 1970}</span>
+  return <span style={{ color: '#00CC99' }}>{age.getUTCFullYear() - 1970}</span>
 }
 
 const Welcome = styled.div`
@@ -59,22 +59,22 @@ export default () => (
     <Top>
       <Img src={avatar} alt="nayed's avatar" />
       <HelloWorld>
-        H<span style={{color: '#00CCCC'}}>e</span>ll
-        <span style={{color: '#E77200'}}>o</span> w
-        <span style={{color: '#E30B5C'}}>o</span>rld
-        <span style={{color: '#02A4D3'}}>!</span>
+        H<span style={{ color: '#00CCCC' }}>e</span>ll
+        <span style={{ color: '#E77200' }}>o</span> w
+        <span style={{ color: '#E30B5C' }}>o</span>rld
+        <span style={{ color: '#02A4D3' }}>!</span>
       </HelloWorld>
     </Top>
-    <hr style={{borderColor: '#0081AB'}} />
+    <hr style={{ borderColor: '#0081AB' }} />
     <Bottom>
       <NayedIntro>
-        <span style={{color: '#FF3399'}}>Nayed</span> Saïd Ali |{' '}
+        <span style={{ color: '#FF3399' }}>Nayed</span> Saïd Ali |{' '}
         {calculateMyAge()} years{' '}
-        <span style={{textDecoration: 'line-through', color: '#C3CDE6'}}>
+        <span style={{ textDecoration: 'line-through', color: '#C3CDE6' }}>
           {' '}
           old
         </span>{' '}
-        | <span style={{color: '#FFC107'}}>developer</span>
+        | <span style={{ color: '#FFC107' }}>developer</span>
       </NayedIntro>
     </Bottom>
   </Welcome>
