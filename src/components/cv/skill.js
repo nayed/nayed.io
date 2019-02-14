@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {Badge} from './../badge'
+import { Badge } from './../badge'
 
 const Skill = styled.div`
   margin-bottom: 15px;

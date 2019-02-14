@@ -35,7 +35,7 @@ const Main = styled.main`
   flex: 1;
 `
 
-export default ({children}) => (
+export default ({ children }) => (
   <>
     <GlobalStyles />
     <Container>

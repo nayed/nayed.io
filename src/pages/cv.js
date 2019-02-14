@@ -103,9 +103,9 @@ const H2 = styled.h2`
 
 export default () => (
   <Layout>
-    <SEO description="Nayed SAïd Ali | CV" title="Nayed Saïd Ali | CV" />
+    <SEO description="Nayed Saïd Ali | CV" title="Nayed Saïd Ali | CV" />
     <H2>
-      <Img src={building} alt="building icon" style={{height: '50px'}} />
+      <Img src={building} alt="building icon" style={{ height: '50px' }} />
       Experiences
     </H2>
     {companies.map(item => (
@@ -113,7 +113,7 @@ export default () => (
     ))}
 
     <H2>
-      <Img src={ruler} alt="building icon" style={{height: '50px'}} />
+      <Img src={ruler} alt="building icon" style={{ height: '50px' }} />
       Education
     </H2>
     {education.map(item => (
@@ -121,7 +121,7 @@ export default () => (
     ))}
 
     <H2>
-      <Img src={chemistry} alt="building icon" style={{height: '50px'}} />
+      <Img src={chemistry} alt="building icon" style={{ height: '50px' }} />
       Skills
     </H2>
     <Skill />
