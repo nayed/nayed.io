@@ -1,32 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
-import CabinSketchRegular from '../fonts/CabinSketch-Regular.ttf'
-import CabinSketchBold from '../fonts/CabinSketch-Bold.ttf'
-import Neucha from '../fonts/Neucha.ttf'
-
 const GlobalStyles = createGlobalStyle`
-  @font-face {
-    font-family: "Cabin Sketch";
-    font-style: normal;
-    font-weight: normal;
-    src: local("Cabin Sketch"), local("Cabin-Sketch"),
-    url(${CabinSketchRegular}) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Cabin Sketch";
-    font-style: bold;
-    font-weight: bold;
-    src: local("Cabin Sketch"), local("Cabin-Sketch"),
-    url(${CabinSketchBold}) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Neucha";
-    font-style: normal;
-    font-weight: normal;
-    src: local("Neucha"), url(${Neucha}) format("truetype");
-  }
+  @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Neucha');
 
   *,
   *::before,

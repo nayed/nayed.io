@@ -7,6 +7,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "npm run develop",
+    "clean": "rm -rf node_modules && npm i",
+    "cs": "npm run clean && npm start",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
