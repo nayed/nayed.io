@@ -1,8 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Neucha');
-
   *,
   *::before,
   *::after {
