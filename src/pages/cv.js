@@ -117,7 +117,11 @@ export default () => (
       Education
     </H2>
     {education.map(item => (
-      <Education education={item} key={education.indexOf(item)} />
+      <Education
+        education={item}
+        key={education.indexOf(item)}
+        borderColor="#3e943e"
+      />
     ))}
 
     <H2>

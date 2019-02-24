@@ -13,7 +13,7 @@ import {
 } from '../card'
 
 export default props => (
-  <Card>
+  <Card borderColor={props.borderColor}>
     <CardHeader>
       <CardHeaderTop>
         <CardHeaderTitle>{props.education.name}</CardHeaderTitle>

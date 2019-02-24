@@ -15,7 +15,7 @@ export const Card = styled.div`
   background-clip: border-box;
   border: 2px solid #333;
   border-radius: 5px 5px 5px 5px/25px 25px 25px 5px;
-  border-color: #17a2b8;
+  border-color: ${props => (props.borderColor ? props.borderColor : '#17a2b8')};
   margin-right: 15px;
   margin-bottom: 16px;
   margin-left: 15px;
