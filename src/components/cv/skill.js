@@ -3,8 +3,6 @@ import styled from 'styled-components'
 import { Badge } from './../badge'
 
 const Skill = styled.div`
-  margin-bottom: 15px;
-
   h3 {
     display: inline;
   }
@@ -18,6 +16,7 @@ const Skill = styled.div`
 
 const SkillItem = styled.div`
   display: block;
+  margin: 10px 0;
 
   @media (min-width: 576px) {
     margin: 15px 80px 0 80px;
