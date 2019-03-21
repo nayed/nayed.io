@@ -43,9 +43,9 @@ export default () => (
       </Link>
     </HomeIcon>
     <Menu>
-      <ListLink to="/cv/">
+      {/*<ListLink to="/cv/">
         <Img src={cv} alt="cv icon" />
-      </ListLink>
+      </ListLink>*/}
       <a href="https://nayed.blog">
         <Img src={blog} alt="blog icon" />
       </a>
